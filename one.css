@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Times New Roman';
+}
+body{
+  background-image: url('img.jpg');
+}
+h1{
+  font-size: 30 px;
+  color:rgb(160,32,240);
+  text-align: center;
+  margin:1rem 0 3rem;
+}
+.input_div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input{
+  width: 45%;
+  border:none;
+  border-bottom: 2px solid rgb(223, 8, 8);
+  background:none;
+  padding: 10px;
+  outline:none;
+  font-size: medium;
+  color: rgb(51, 15, 209);
+}
+.addbutton{
+  border: none;
+  background: none;
+  cursor:pointer;
+
+}
+.addbutton i{
+  float: middle;
+  color: rgb(212, 21, 126);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  align-items: center;
+}
+.item{
+  width: 50%;
+  background: rgba(25,60,118,0.5);
+  margin: 4px;
+  padding: 10px;
+}
+.item_input{
+  background: none;
+  outline: none;
+  border: none;
+  font-size: medium;
+  float: left;
+  text-align: center;
+
+}
+.editbutton{
+  border: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  color: teal;
+}
+
+.editbutton i{
+  color: rgba(230, 28, 28, 0.568);
+}
+.removebutton{
+  border: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  color: bisque;
+}
+.removebutton i{
+  color: brown;
+}
+.input.editbutton{
+  text-decoration: line-through;
+}
